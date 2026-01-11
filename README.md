@@ -147,7 +147,7 @@ LIMIT 1;
 
 2. **Most Popular Movies:** Top popular movies are:
 
-'Jurassic World' (418), 'Captain America: Civil War' (198), 'Avatar' (150), 'Pirates of the Caribbean: Dead Man's Chest' (145), and 'The Avengers' (144).
+   'Jurassic World' (418), 'Captain America: Civil War' (198), 'Avatar' (150), 'Pirates of the Caribbean: Dead Man's Chest' (145), and 'The Avengers' (144).
 
 3. **Gender Representation:** Male directors dominate with 625 records, while female directors account for only 150, highlighting gender imbalance.
 
