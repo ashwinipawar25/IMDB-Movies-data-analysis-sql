@@ -143,15 +143,19 @@ LIMIT 1;
 
 ## 🔍 Key Insights
 
-Director Analysis: Top directors by movie count, revenue, and average ratings.
+ 1. **Total Movies:** The IMDB dataset contains a total of 47 movies available for analysis.
 
-Movie Popularity: Most popular and highest-grossing movies identified.
+2. **Most Popular Movies:** Top popular movies are:
 
-Female Directors: Analysis on gender distribution.
+'Jurassic World' (418), 'Captain America: Civil War' (198), 'Avatar' (150), 'Pirates of the Caribbean: Dead Man's Chest' (145), and 'The Avengers' (144).
 
-Awarded Movies: Highest voted movies since 2000.
+3. **Gender Representation:** Male directors dominate with 625 records, while female directors account for only 150, highlighting gender imbalance.
 
-Visualization Ready: Query outputs can be used in charts and dashboards.
+4. **Most Productive Director:** The most productive director is Gore Verbinski, having directed 3 movies in the dataset.
+
+5. **Most Bankable Director:** James Cameron generated a total revenue of 4,632,999,275, making him commercially the most valuable.
+
+6. **Highest Rated Movie Since 2000:** Post-2000, critically acclaimed movie 'The Dark Knight Rises' has a high average rating of 7.6 with 9106 votes. 
 
 ## 🧠 Skills Demonstrated
 
@@ -171,7 +175,7 @@ Preparing data for visualization tools (Power BI / Tableau)
 
 ## 🧰 Tools Used
 
-MySQL / SQL Server
+MySQL 
 
 GitHub
 
