@@ -22,7 +22,8 @@ Data Visualization Prep: Prepare query outputs for visualization in tools like P
 
 Portfolio Showcase: Demonstrate SQL proficiency for data analyst roles.
 
-🧩 Tables
+## 🧩 Datasets
+## Tables
 1. directors
 
 Columns: id, name, gender, birth_date, other relevant columns
@@ -31,7 +32,7 @@ Columns: id, name, gender, birth_date, other relevant columns
 
 Columns: id, title, director_id, release_date, popularity, revenue, vote_average, vote_count, etc.
 
-🔍 Sample Queries & Analysis
+## 🔍 Sample Queries & Analysis
  use project_movie_database;
 
 select * 
@@ -118,7 +119,7 @@ GROUP BY d.name
 ORDER BY total_revenue DESC
 LIMIT 1;
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 Director Analysis: Top directors by movie count, revenue, and average ratings.
 
@@ -130,7 +131,7 @@ Awarded Movies: Highest voted movies since 2000.
 
 Visualization Ready: Query outputs can be used in charts and dashboards.
 
-🧠 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
 SQL Aggregations
 
@@ -146,23 +147,21 @@ Business Insight Generation
 
 Preparing data for visualization tools (Power BI / Tableau)
 
-🧰 Tools Used
+## 🧰 Tools Used
 
 MySQL / SQL Server
 
 GitHub
 
-Optional: Power BI / Tableau
-
-Conclusion
+## Conclusion
 
 This project showcases SQL queries on the IMDB dataset, covering exploration, analysis, and insight generation. It demonstrates real-world applications of SQL in data analysis, preparing outputs for visualization and decision-making.
 
-Author
+## Author
 
-Ashwini Pawar
-Email: 2005ashwinipawar@gmail.com
-GitHub: ashwinipawar25
+Ashwini Pawar<br>
+Email: 2005ashwinipawar@gmail.com<br>
+GitHub: ashwinipawar25<br>
 
 This project is part of my portfolio, highlighting essential SQL skills for data analyst roles. For questions, feedback, or collaboration, feel free to reach out!
 
