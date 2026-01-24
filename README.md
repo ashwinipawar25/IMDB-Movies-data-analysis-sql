@@ -26,7 +26,7 @@ Portfolio Showcase: Demonstrate SQL proficiency for data analyst roles.
 
 ### database selection
 ```
- use project_movie_database;
+use project_movie_database;
 ``` 
 ## Tables
 1. directors
