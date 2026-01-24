@@ -34,7 +34,7 @@ use project_movie_database;
 Columns: id, name, gender, birth_date, other relevant columns
 
 ### Exploring directors table
-```
+```sql
 select * 
 from directors;
 ```
@@ -43,46 +43,46 @@ from directors;
 
 Columns: id, title, director_id, release_date, popularity, revenue, vote_average, vote_count, etc.
 
-```
+```sql
 select *
 from movies;
 ```
 
 ## 📊 Data Analysis & Business Questions
-```
+```sql
 a) Can you get all data about movies?
 select *
 from movies;
 ```
-```
+```sql
 b) How do you get all data about directors?
 select * 
 from directors;
 ```
-```
+```sql
  c) Check how many movies are present in IMDB.
 select count(id) as total_movies
 from movies;
 ```
-```
+```sql
 d) Find these 3 directors: James Cameron, Luc Besson, John Woo
 select *
 from directors
 where name in ("James Cameron", "Luc Besson", "John Woo");
 ```
-```
+```sql
 e) Find all directors with name starting with S
 select *
 from directors
 where name like "s%";
 ```
-```
+```sql
  f) Count female directors
 select count(*) as Total_female
 from directors
 where gender = 1;
 ```
-```
+```sql
 g) Find the name of the 10th first women director
 select name
 from directors
@@ -90,21 +90,21 @@ where gender = 1
 order by id
 limit 10;
 ```
-```
+```sql
  h) What are the 3 most popular movies?
 SELECT title, popularity
 FROM movies
 ORDER BY popularity DESC
 LIMIT 3;
 ```
-```
+```sql
  i) What are the 3 most bankable movies?
 SELECT title, revenue
 FROM movies
 ORDER BY revenue DESC
 LIMIT 3;
 ```
-```
+```sql
  j) What is the most awarded average vote since January 1st, 2000?
 SELECT title, vote_average
 FROM movies
@@ -112,7 +112,7 @@ WHERE release_date >= '2000-01-01'
 ORDER BY vote_average DESC
 LIMIT 1;
 ```
-```
+```sql
  k) Which movie(s) were directed by Brenda Chapman?
 SELECT m.title
 FROM movies m
@@ -120,7 +120,7 @@ JOIN directors d
 ON m.director_id = d.id
 WHERE d.name = 'Brenda Chapman';
 ```
-```
+```sql
 l) Which director made the most movies?
 SELECT d.name, COUNT(m.id) AS total_movies
 FROM directors d
@@ -130,7 +130,7 @@ GROUP BY d.name
 ORDER BY total_movies DESC
 LIMIT 1;
 ```
-```
+```sql
  m) Which director is the most bankable?
 SELECT d.name, SUM(m.revenue) AS total_revenue
 FROM directors d
